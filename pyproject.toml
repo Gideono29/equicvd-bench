@@ -19,5 +19,8 @@ test = ["pytest>=7"]
 [project.scripts]
 equicvd = "equicvd.cli:main"
 
+[tool.setuptools]
+packages = ["equicvd"]
+
 [tool.setuptools.package-data]
 equicvd = ["data/*.csv"]
