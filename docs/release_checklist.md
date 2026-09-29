@@ -1,4 +1,4 @@
-# Release checklist — v1.0.0 (November 2026)
+# Release checklist — v1.0.0 (September 2026); reuse for later releases
 
 Zenodo archives every **published GitHub release** of this repository and mints a DOI for it, using the
 metadata in `.zenodo.json` (not `CITATION.cff`). Tags without a published release do not trigger it.
@@ -16,7 +16,8 @@ permanent Zenodo record with its own DOI.
 
 ## Before tagging
 
-- [ ] 30 October calibration-scope decision recorded in `CHANGELOG.md` and reflected in `docs/methods.md`.
+- [ ] Calibration-scope decision recorded in `CHANGELOG.md` and reflected in `docs/methods.md`
+      (v1.0.0: as-published + recalibrated, both reported).
 - [ ] Version bumped from `1.0.0rc1` to `1.0.0` in **all three** of `pyproject.toml`, `equicvd/__init__.py` and
       `CITATION.cff` (`tests/test_release_metadata.py` fails if they disagree).
 - [ ] `CITATION.cff` `date-released:` set to the release date.

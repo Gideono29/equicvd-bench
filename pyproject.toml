@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "equicvd"
-version = "1.0.0rc1"
+version = "1.0.0"
 description = "EquiCVD Bench: calibration and subgroup fairness of U.S. cardiovascular risk tools on NHANES 1999-2018 with linked mortality"
 readme = "README.md"
 requires-python = ">=3.10"

@@ -42,7 +42,7 @@ Or run everything with `scripts/reproduce.sh` / `scripts/reproduce.ps1`, or in D
 
 ## Citation
 
-See `CITATION.cff`. A Zenodo DOI will be minted with v1.0.0.
+See `CITATION.cff`. v1.0.0 (29 September 2026) is archived on Zenodo; the DOI is added here after minting.
 
 ## Design
 

@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use EquiCVD Bench, please cite it as below."
 title: "EquiCVD Bench: calibration and subgroup fairness of U.S. cardiovascular risk tools on NHANES 1999-2018"
 type: software
-version: 1.0.0rc1
+version: 1.0.0
+date-released: 2026-09-29
 # TODO after the first release is minted: add the Zenodo DOI below.
 authors:
   - family-names: "Owusu"

@@ -1,6 +1,6 @@
-# EquiCVD Bench — run report (v1.0.0rc1, scenario: horizon_5y)
+# EquiCVD Bench — run report (v1.0.0, scenario: horizon_5y)
 
-Run 2026-09-29T17:10:47+00:00 · horizon 5 y · B=200 Rao–Wu survey bootstrap · seed 20261101
+Run 2026-09-29T23:51:13+00:00 · horizon 5 y · B=200 Rao–Wu survey bootstrap · seed 20261101
 
 ## 1. Evaluation cohort
 

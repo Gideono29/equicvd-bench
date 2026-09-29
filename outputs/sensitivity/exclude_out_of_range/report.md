@@ -1,6 +1,6 @@
-# EquiCVD Bench — run report (v1.0.0rc1, scenario: exclude_out_of_range)
+# EquiCVD Bench — run report (v1.0.0, scenario: exclude_out_of_range)
 
-Run 2026-09-29T17:09:22+00:00 · horizon 10 y · B=200 Rao–Wu survey bootstrap · seed 20261101 · out-of-range participants excluded
+Run 2026-09-29T23:49:42+00:00 · horizon 10 y · B=200 Rao–Wu survey bootstrap · seed 20261101 · out-of-range participants excluded
 
 ## 1. Evaluation cohort
 

@@ -1,7 +1,7 @@
 {
- "equicvd_version": "1.0.0rc1",
+ "equicvd_version": "1.0.0",
  "scenario": "exclude_out_of_range",
- "run_utc": "2026-09-29T17:09:22+00:00",
+ "run_utc": "2026-09-29T23:49:42+00:00",
  "python": "3.12.6",
  "numpy": "2.1.2",
  "pandas": "2.2.3",
@@ -15,7 +15,7 @@
   "recalibrate": true,
   "exclude_out_of_range": true
  },
- "cohort_sha256": "1bb118a7025d4959b4ae8ea650285ce6a232593acc0736d1dce684ea14d28cca",
+ "cohort_sha256": "de710f54b288006015fb2fa26bad8e0ea7cfd52c4dd5e647290af98e1659150a",
  "cycles_kept": [
   "1999-2000",
   "2001-2002",
@@ -44,5 +44,5 @@
  },
  "n": 12851,
  "horizon_events": 333,
- "runtime_s": 60.4
+ "runtime_s": 62.4
 }

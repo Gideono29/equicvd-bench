@@ -81,7 +81,18 @@ def download_all(data_dir: Path, jobs: int = 4) -> list:
 
     results.sort(key=lambda r: r["path"])
     manifest = Path(data_dir) / "raw" / "manifest.json"
-    manifest.write_text(json.dumps(results, indent=1))
+    # Provenance only (stable across re-runs): keep the source URL recorded when a cached file was first fetched
+    previous = {}
+    if manifest.exists():
+        previous = {r["path"]: r for r in json.loads(manifest.read_text())}
+    entries = []
+    for r in results:
+        if r["status"] == "failed":
+            entries.append({k: r.get(k) for k in ("file", "path", "status", "error")})
+            continue
+        url = r["url"] or previous.get(r["path"], {}).get("url")
+        entries.append({"file": r["file"], "path": r["path"], "url": url, "bytes": r["bytes"], "sha256": r["sha256"]})
+    manifest.write_text(json.dumps(entries, indent=1))
     failed = [r for r in results if r["status"] == "failed"]
     print(f"\n{len(results) - len(failed)}/{len(results)} files present; manifest -> {manifest}")
     for r in failed:

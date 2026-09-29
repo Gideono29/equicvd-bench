@@ -1,6 +1,6 @@
-# EquiCVD Bench — run report (v1.0.0rc1, scenario: unweighted)
+# EquiCVD Bench — run report (v1.0.0, scenario: unweighted)
 
-Run 2026-09-29T17:08:21+00:00 · horizon 10 y · B=200 iid bootstrap (unweighted) · seed 20261101
+Run 2026-09-29T23:48:39+00:00 · horizon 10 y · B=200 iid bootstrap (unweighted) · seed 20261101
 
 ## 1. Evaluation cohort
 
