@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use EquiCVD Bench, please cite it as below."
+title: "EquiCVD Bench: calibration and subgroup fairness of U.S. cardiovascular risk tools on NHANES 1999-2018"
+type: software
+version: 1.0.0rc1
+# TODO after the first release is minted: add the Zenodo DOI below.
+authors:
+  - family-names: "Owusu"
+    given-names: "Gideon"
+    email: gideono@mtu.edu
+    affiliation: "Michigan Technological University"
+    orcid: "https://orcid.org/0009-0000-0540-7449"
+license: MIT
+keywords:
+  - cardiovascular risk prediction
+  - calibration
+  - algorithmic fairness
+  - NHANES
+  - PREVENT
+  - pooled cohort equations
+# doi: 10.5281/zenodo.XXXXXXX

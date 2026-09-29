@@ -1,0 +1,16 @@
+# Raw and processed data are rebuilt by `download` and `cohort` (hashes in data/raw/manifest.json)
+data/raw/**/*.xpt
+data/raw/**/*.dat
+data/processed/cohort.csv.gz
+*.part
+
+# Large per-participant outputs; deposit with Zenodo instead of committing
+outputs/**/predictions.csv.gz
+
+*.log
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/

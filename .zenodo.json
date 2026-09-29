@@ -1,0 +1,14 @@
+{
+  "title": "EquiCVD Bench: calibration and subgroup fairness of U.S. cardiovascular risk tools on NHANES 1999-2018",
+  "upload_type": "software",
+  "description": "Open benchmark of calibration and subgroup fairness of U.S. cardiovascular risk tools (PCE, PCE-revised, PREVENT, non-laboratory Framingham, explainable ML) on NHANES 1999-2018 with NCHS 2019 public-use linked mortality. Includes data download, cohort construction, survey-weighted IPCW evaluation with Rao-Wu bootstrap, and sensitivity analyses.",
+  "creators": [
+    {"name": "Owusu, Gideon", "affiliation": "Michigan Technological University", "orcid": "0009-0000-0540-7449"}
+  ],
+  "license": "MIT",
+  "keywords": ["cardiovascular risk", "calibration", "fairness", "NHANES", "PREVENT", "pooled cohort equations"],
+  "related_identifiers": [
+    {"relation": "isDerivedFrom", "identifier": "https://wwwn.cdc.gov/nchs/nhanes/", "resource_type": "dataset"},
+    {"relation": "isDerivedFrom", "identifier": "https://www.cdc.gov/nchs/data-linkage/mortality-public.htm", "resource_type": "dataset"}
+  ]
+}

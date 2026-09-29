@@ -1,0 +1,71 @@
+{
+ "range_policy": "clip",
+ "n": 23564,
+ "cvd_deaths": 810,
+ "other_deaths": 2396,
+ "median_followup_years": 9.25,
+ "by_cycle": [
+  {
+   "cycle": "1999-2000",
+   "n": 1936,
+   "cvd_deaths": 182,
+   "max_fu": 20.75
+  },
+  {
+   "cycle": "2001-2002",
+   "n": 2105,
+   "cvd_deaths": 144,
+   "max_fu": 19.083333333333332
+  },
+  {
+   "cycle": "2003-2004",
+   "n": 1927,
+   "cvd_deaths": 126,
+   "max_fu": 17.0
+  },
+  {
+   "cycle": "2005-2006",
+   "n": 1994,
+   "cvd_deaths": 99,
+   "max_fu": 15.0
+  },
+  {
+   "cycle": "2007-2008",
+   "n": 2671,
+   "cvd_deaths": 94,
+   "max_fu": 13.25
+  },
+  {
+   "cycle": "2009-2010",
+   "n": 2833,
+   "cvd_deaths": 64,
+   "max_fu": 11.25
+  },
+  {
+   "cycle": "2011-2012",
+   "n": 2364,
+   "cvd_deaths": 50,
+   "max_fu": 9.25
+  },
+  {
+   "cycle": "2013-2014",
+   "n": 2681,
+   "cvd_deaths": 32,
+   "max_fu": 7.083333333333333
+  },
+  {
+   "cycle": "2015-2016",
+   "n": 2576,
+   "cvd_deaths": 14,
+   "max_fu": 5.083333333333333
+  },
+  {
+   "cycle": "2017-2018",
+   "n": 2477,
+   "cvd_deaths": 5,
+   "max_fu": 3.0833333333333335
+  }
+ ],
+ "out_of_range_pce": 1229,
+ "out_of_range_prevent": 3213
+}

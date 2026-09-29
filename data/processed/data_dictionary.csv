@@ -1,0 +1,34 @@
+column,type_units,definition,source
+SEQN,int,Respondent sequence number (unique across cycles),DEMO.SEQN
+cycle,str,"NHANES survey cycle, e.g. 1999-2000",file
+cycle_start,int,First calendar year of the cycle,file
+age,years,Age at screening,RIDAGEYR
+female,0/1,Female sex,RIAGENDR==2
+sex,str,Female / Male,RIAGENDR
+race,str,"Race/ethnicity (Mexican American, Other Hispanic, NH White, NH Black, Other/Multiracial)",RIDRETH1
+black,0/1,Non-Hispanic Black (selects PCE African-American equations),RIDRETH1==4
+sbp,mmHg,Mean of available auscultatory systolic readings,BPXSY1-BPXSY4
+tc,mg/dL,Serum total cholesterol,"LBXTC (LAB13, L13_B, L13_C, TCHOL_D-J)"
+hdl,mg/dL,HDL cholesterol,"LBDHDL (1999-2002), LBXHDD (2003-04), LBDHDD (2005-18)"
+bmi,kg/m2,Body mass index,BMXBMI
+hba1c,%,Glycohemoglobin,LBXGH
+smoker,0/1,Current smoker: >=100 lifetime cigarettes and now smokes every day or some days,"SMQ020, SMQ040"
+diabetes,0/1,"Self-reported diagnosis, insulin, oral agents, or HbA1c >= 6.5%","DIQ010, DIQ050, DIQ070, LBXGH"
+bptx,0/1,Currently taking prescribed BP-lowering medication,"BPQ020, BPQ050A"
+statin,0/1,Currently taking prescribed lipid-lowering medication (statin proxy),BPQ100D
+creatinine,mg/dL,Serum creatinine standardized to IDMS (1999-2000: 1.013x+0.147; 2005-06: -0.016+0.978x),LBXSCR / LBDSCR
+egfr,mL/min/1.73m2,CKD-EPI 2021 race-free eGFR,"derived from creatinine, age, sex"
+prior_cvd,0/1,"Self-reported CHF, CHD, angina, MI or stroke (exclusion)",MCQ160B-F
+pregnant,0/1,Pregnant at exam (exclusion),RIDEXPRG==1
+mec_examined,0/1,Examined at mobile examination center,RIDSTATR==2
+income,str,"Family income-to-poverty ratio group: <1.3, 1.3-3.5, >3.5",INDFMPIR
+education,str,"Highest education (adults 20+): <HS, HS/GED, Some college, College+",DMDEDUC2
+age_group,str,Age band 40-49 / 50-59 / 60-69 / 70-79,RIDAGEYR
+wt,weight,"20-year combined MEC weight: WTMEC4YR*2/10 for 1999-2002, WTMEC2YR/10 otherwise","WTMEC2YR, WTMEC4YR"
+strata,int,Masked variance pseudo-stratum,SDMVSTRA
+psu,int,Masked variance pseudo-PSU,SDMVPSU
+linkage_eligible,0/1,Eligible for mortality linkage,LMF ELIGSTAT==1
+time,years,Follow-up from MEC exam to death or 2019-12-31,LMF PERMTH_EXM/12
+event,0/1/2,"0 alive at end of follow-up, 1 CVD death (UCOD 001 heart disease or 005 cerebrovascular), 2 non-CVD death","LMF MORTSTAT, UCOD_LEADING"
+oor_pce,0/1,"Any PCE input outside valid range (age 40-79, TC 130-320, HDL 20-100, SBP 90-200)",derived
+oor_prevent,0/1,"Any PREVENT input outside valid range (age 30-79, TC 130-320, HDL 20-100, SBP 90-180, eGFR 15-140, BMI 18.5-39.9)",derived
