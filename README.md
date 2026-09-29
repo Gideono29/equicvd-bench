@@ -37,6 +37,7 @@ Or run everything with `scripts/reproduce.sh` / `scripts/reproduce.ps1`, or in D
 | `docs/datasheet.md` | Datasheet for the analytic cohort |
 | `docs/tripod_ai_checklist.md` | TRIPOD+AI reporting map |
 | `docs/manuscript_outline.md` | Companion-paper outline tied to output files |
+| `docs/release_checklist.md` | Zenodo setup and v1.0.0 release steps |
 | `data/processed/data_dictionary.csv` | Every cohort column: units, definition, NHANES source |
 
 ## Citation
