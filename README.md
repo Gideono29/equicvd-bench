@@ -1,5 +1,8 @@
 # EquiCVD Bench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23083676.svg)](https://doi.org/10.5281/zenodo.23083676)
+[![tests](https://github.com/Gideono29/equicvd-bench/actions/workflows/tests.yml/badge.svg)](https://github.com/Gideono29/equicvd-bench/actions/workflows/tests.yml)
+
 Open benchmark of **calibration and subgroup fairness** of U.S. cardiovascular risk tools on
 NHANES 1999–2018 with the NCHS 2019 public-use linked mortality files.
 
@@ -42,7 +45,9 @@ Or run everything with `scripts/reproduce.sh` / `scripts/reproduce.ps1`, or in D
 
 ## Citation
 
-See `CITATION.cff`. v1.0.0 (29 September 2026) is archived on Zenodo; the DOI is added here after minting.
+See `CITATION.cff`. Cite all versions with the concept DOI
+[10.5281/zenodo.23083676](https://doi.org/10.5281/zenodo.23083676), or v1.0.0 specifically with
+[10.5281/zenodo.23083677](https://doi.org/10.5281/zenodo.23083677).
 
 ## Design
 

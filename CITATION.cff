@@ -4,7 +4,16 @@ title: "EquiCVD Bench: calibration and subgroup fairness of U.S. cardiovascular 
 type: software
 version: 1.0.0
 date-released: 2026-09-29
-# TODO after the first release is minted: add the Zenodo DOI below.
+# Concept DOI: always resolves to the latest version
+doi: 10.5281/zenodo.23083676
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23083676
+    description: Concept DOI (all versions, resolves to the latest)
+  - type: doi
+    value: 10.5281/zenodo.23083677
+    description: Version DOI for v1.0.0
+repository-code: "https://github.com/Gideono29/equicvd-bench"
 authors:
   - family-names: "Owusu"
     given-names: "Gideon"
@@ -19,4 +28,3 @@ keywords:
   - NHANES
   - PREVENT
   - pooled cohort equations
-# doi: 10.5281/zenodo.XXXXXXX
